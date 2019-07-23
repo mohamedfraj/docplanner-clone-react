@@ -147,9 +147,9 @@ padding: 20px 0px 0px 40px;
 .titre-parag{
 margin-top:90px;
 }
-.Containercards{
+/* .Containercards{
   display: flex;
-}
+} */
 .descardes{
   display: flex;
   justify-content: space-between;
