@@ -1,33 +1,254 @@
-.App {
+
+
+
+/* css zone navbar */
+.navbar{
+  position: fixed!important;
+    z-index: 1!important;
+    width: 100% !important;
+    background-color: white;
+ 
+}
+.about{
+  color: #00b39b !important;
+}
+a{
+  color:#ababab !important;
+}
+
+/* fin la zone css de navbar */
+
+
+
+/* css logo titre */
+
+.etoile{
+  padding-top: 50px ;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+.logo-etoile{
+  display: flex;
+  justify-content: center;
+}
+.titre{
+  color: #00b39b;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+/* fin css logo titre */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* css paragraph */
+
+.row-pargraphe{
+  color: #747474;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  text-align: left;
+  margin-top:50px ;
+}
+
+.test{
+  margin: 2%;
+}
+
+/* fin css paragraph */
+
+/* css cards */
+   .cards{
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+} 
+.card{
+  margin-top:50px ;
+  width: 40%;
+  height: 350px;
+  overflow: hidden;
+  
+ }
+
+@media only screen and (max-width : 770px) {
+  .find{
+    font-size: 20px;
+  }
+.card{
+  width: 100%;
+  }  
+}
+
+.imgpc{
+  width: 70%;
+  height: auto;
+  margin-left:50%;
+}
+
+.forpatient{
+color: hsla(0,0%,100%,.7);
+padding: 20px 0px 0px 40px;
+}
+
+.find{
   color: white;
+  padding: 0 40px;  
 }
 
-.App-link {
-  color: #61dafb;
+.drapbtn{
+  padding: 20px 20px;
+  position: absolute;
+  top: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#dropdown-basic-button{
+  border: none !important;
+  background-color: white !important;
+  color: black !important;
+  font-family: cursive;
+}
+
+/* fin css cards */
+
+/* css titles */
+.we-are{
+  color:#00b39b;
+  flex: 1;
+  font-family: cursive;
+  margin-left: 60px;
+}
+
+.links svg{
+  fill: hsla(0,0%,67%,.7);;
+  width: 150px;
+}
+
+.links svg:hover{
+  fill: #00b39b;
+}
+
+.links{
+  margin-right: 10px
+}
+.title-citce{
+  margin:50px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.divlinks{
+  display:flex;
+  flex-wrap: wrap;
+  flex: 2;
+}
+/* fin css titles */
+
+/* css  div img */
+/*  */
+.titre-parag{
+margin-top:90px;
+}
+.Containercards{
+  display: flex;
+}
+.descardes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.bgimage{
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.H1the-world{
+  color: #00b39b;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.paragraph-wework{
+  color: #747474;
+  margin-top:30px;
+  font-size: 17px
+}
+
+
+/* css div card */
+.cardlogo{
+  background: white;
+  width: 18pc;
+  height: 300px;
+  border-radius: 5px; 
+  margin: 20px 0;
+}
+
+.centre{
+  text-align: center; 
+  padding-top:30px; 
+}
+
+.tith1{
+  color: #00b39b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragpoland{
+  color: #747474;
+  padding-bottom: 20px
+}
+/* fin css  div img */
+
+/* css section */
+.section{
+  margin: 10% 10% 0 10% 
+}
+
+.improve{
+text-align: center;
+font-family:Helvetica,Arial,sans-serif;
+}
+.more{
+  color: #747474;
+  padding: 3% 20% ;
+}
+.lives{
+  color: #00b39b;
+  font-size: 35px;
+}
+
+/* css section cards */
+.carte{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+.descartes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.el-titre{
+  color: #747474;
+  margin: 5px;
+}
+.boton{
+  font-size: 15px!important;
+}
+
+
+/* css footer */
+.text{
+  text-align: center;
+}
+.pays{
+  margin-top: 100px;
+}
+.pay{
+  margin:20px
+}
+
+ small a {
+  color: blue !important;
 }
