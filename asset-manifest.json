@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/docplanner-clone-react/static/css/main.4e1194c5.chunk.css",
+    "main.js": "/docplanner-clone-react/static/js/main.12663c07.chunk.js",
+    "main.js.map": "/docplanner-clone-react/static/js/main.12663c07.chunk.js.map",
+    "runtime~main.js": "/docplanner-clone-react/static/js/runtime~main.2f5682f2.js",
+    "runtime~main.js.map": "/docplanner-clone-react/static/js/runtime~main.2f5682f2.js.map",
+    "static/js/2.e14fca06.chunk.js": "/docplanner-clone-react/static/js/2.e14fca06.chunk.js",
+    "static/js/2.e14fca06.chunk.js.map": "/docplanner-clone-react/static/js/2.e14fca06.chunk.js.map",
+    "index.html": "/docplanner-clone-react/index.html",
+    "precache-manifest.c179bbeef164cc913d7314c6da65d890.js": "/docplanner-clone-react/precache-manifest.c179bbeef164cc913d7314c6da65d890.js",
+    "service-worker.js": "/docplanner-clone-react/service-worker.js",
+    "static/css/main.4e1194c5.chunk.css.map": "/docplanner-clone-react/static/css/main.4e1194c5.chunk.css.map",
+    "static/media/bg.png": "/docplanner-clone-react/static/media/bg.c29854ac.png"
+  }
+}
